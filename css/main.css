@@ -222,7 +222,7 @@ h5, h6          { font-weight: bolder }
     box-sizing: border-box;
     position: relative;
     z-index: 55;
-    background: #f6f6f6;
+    background: #ffffff;
     clear: both;
     min-height: 100vh;
 }
@@ -231,7 +231,7 @@ h5, h6          { font-weight: bolder }
 .main .work{
     display: block;
     width: 33.33333333333333%;
-    height: auto;
+    height: 340px;
     float: left;
     position: relative;
     overflow: hidden;
@@ -635,10 +635,18 @@ h5, h6          { font-weight: bolder }
         position: relative;
         padding-left: 0;
     }
+
+    .main .work.hide-md {
+        display: none;
+    }
 }
 
 @media (max-width:550px){
      .main .work{
         width: 100%;
+    }
+
+    .main .work.hide-sm {
+        display: none;
     }
 }
