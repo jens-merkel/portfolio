@@ -1,0 +1,38 @@
+/*Quotes*/
+blockquote {
+    border-left: 3px solid #5d686f;
+    padding: 0 15px;
+    font-style: italic;
+    margin: 1.5em 0 0;
+}
+
+blockquote cite:before {
+    content: ' — ';
+    padding: 0 0.3em;
+}
+
+blockquote > p:first-child {
+    margin: 0;
+}
+
+.pullquote {
+    text-align: left;
+    font-style: italic;
+    margin: 1.5em 0 0;
+}
+
+.pullquote.left {
+    width: 45%;
+    float: left;
+    margin: 1.5em 35px 1.5em 0;
+}
+
+.pullquote.right {
+    width: 45%;
+    float: right;
+    margin: 1.5em 0 1.5em 35px;
+}
+
+.pullquote.blur {
+    background-color: #eef0f1;
+}
